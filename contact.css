@@ -1,0 +1,60 @@
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+/* from cssassign2 */
+  .BannerRight{
+    text-align: right;
+    color: white;
+    width: 600px;
+    justify-content: center;
+   
+}
+
+a:link {
+    color: white;
+  }
+  
+  a:hover {
+    color: rgba(255, 255, 255, 0.397);
+  }
+
+  .Container{
+    background-color: black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 500px;
+    align-items: center;
+}
+
+
