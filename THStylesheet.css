@@ -1,0 +1,23 @@
+.b {  
+    background-image: url("/Tiny Horse/Tiny Horse Background Photo 1.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.nav-link {
+    color: white;
+    font-family:'Roboto', sans-serif;
+}
+# nav{
+    display: grid;
+    grid-template-rows:14.2%;
+
+}
+}
+h1{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mission-statment h1{
+    color: white;
+    margin-top: 25%;
+}
